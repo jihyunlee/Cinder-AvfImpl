@@ -15,48 +15,6 @@
 		3C84470017827C7100B64DF6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8446FF17827C7100B64DF6 /* AVFoundation.framework */; };
 		3C84470317828C7000B64DF6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C84470217828C7000B64DF6 /* CoreMedia.framework */; };
 		3C9032911789E71E009BDB67 /* AvfUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C9032901789E71E009BDB67 /* AvfUtils.mm */; };
-		3CA87C14178B05D900B4C712 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 82AD2A27721F42EC97B73A73 /* CinderApp.icns */; };
-		3CA87C16178B05D900B4C712 /* Avf.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41103DFF177CBACE00FDCBA5 /* Avf.mm */; };
-		3CA87C18178B05D900B4C712 /* AvfUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C9032901789E71E009BDB67 /* AvfUtils.mm */; };
-		3CA87C1A178B05D900B4C712 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C84470217828C7000B64DF6 /* CoreMedia.framework */; };
-		3CA87C1B178B05D900B4C712 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8446FF17827C7100B64DF6 /* AVFoundation.framework */; };
-		3CA87C1C178B05D900B4C712 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		3CA87C1D178B05D900B4C712 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
-		3CA87C1E178B05D900B4C712 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
-		3CA87C1F178B05D900B4C712 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
-		3CA87C20178B05D900B4C712 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
-		3CA87C21178B05D900B4C712 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
-		3CA87C22178B05D900B4C712 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
-		3CA87C23178B05D900B4C712 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
-		3CA87C2A178B05FE00B4C712 /* MovieSurfaceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CA87C29178B05FE00B4C712 /* MovieSurfaceTest.cpp */; };
-		3CA87C2D178B066D00B4C712 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 82AD2A27721F42EC97B73A73 /* CinderApp.icns */; };
-		3CA87C2F178B066D00B4C712 /* Avf.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41103DFF177CBACE00FDCBA5 /* Avf.mm */; };
-		3CA87C30178B066D00B4C712 /* AvfUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C9032901789E71E009BDB67 /* AvfUtils.mm */; };
-		3CA87C33178B066D00B4C712 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C84470217828C7000B64DF6 /* CoreMedia.framework */; };
-		3CA87C34178B066D00B4C712 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8446FF17827C7100B64DF6 /* AVFoundation.framework */; };
-		3CA87C35178B066D00B4C712 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		3CA87C36178B066D00B4C712 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
-		3CA87C37178B066D00B4C712 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
-		3CA87C38178B066D00B4C712 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
-		3CA87C39178B066D00B4C712 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
-		3CA87C3A178B066D00B4C712 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
-		3CA87C3B178B066D00B4C712 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
-		3CA87C3C178B066D00B4C712 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
-		3CA87C43178B069300B4C712 /* MovieLoaderTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CA87C42178B069300B4C712 /* MovieLoaderTest.cpp */; };
-		3CA87C46178B077300B4C712 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 82AD2A27721F42EC97B73A73 /* CinderApp.icns */; };
-		3CA87C48178B077300B4C712 /* Avf.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41103DFF177CBACE00FDCBA5 /* Avf.mm */; };
-		3CA87C49178B077300B4C712 /* AvfUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C9032901789E71E009BDB67 /* AvfUtils.mm */; };
-		3CA87C4C178B077300B4C712 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C84470217828C7000B64DF6 /* CoreMedia.framework */; };
-		3CA87C4D178B077300B4C712 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8446FF17827C7100B64DF6 /* AVFoundation.framework */; };
-		3CA87C4E178B077300B4C712 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		3CA87C4F178B077300B4C712 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
-		3CA87C50178B077300B4C712 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
-		3CA87C51178B077300B4C712 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
-		3CA87C52178B077300B4C712 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
-		3CA87C53178B077300B4C712 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
-		3CA87C54178B077300B4C712 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
-		3CA87C55178B077300B4C712 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
-		3CA87C5C178B07B100B4C712 /* MovieGlTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CA87C5B178B07B100B4C712 /* MovieGlTest.cpp */; };
 		41103E01177CBACE00FDCBA5 /* Avf.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41103DFF177CBACE00FDCBA5 /* Avf.mm */; };
 		41103E02177CBACE00FDCBA5 /* MacApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41103E00177CBACE00FDCBA5 /* MacApp.cpp */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
@@ -78,15 +36,6 @@
 		3C84470217828C7000B64DF6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		3C90328F1789E715009BDB67 /* AvfUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AvfUtils.h; path = ../include/AvfUtils.h; sourceTree = "<group>"; };
 		3C9032901789E71E009BDB67 /* AvfUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AvfUtils.mm; path = ../src/AvfUtils.mm; sourceTree = "<group>"; };
-		3CA87C27178B05D900B4C712 /* MovieSurfaceTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieSurfaceTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CA87C28178B05D900B4C712 /* Info-MovieSurfaceTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-MovieSurfaceTest.plist"; path = "/Users/Caleb/Development/OpenSource/CinderAvfPort/xcode/Info-MovieSurfaceTest.plist"; sourceTree = "<absolute>"; };
-		3CA87C29178B05FE00B4C712 /* MovieSurfaceTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MovieSurfaceTest.cpp; path = ../src/MovieSurfaceTest.cpp; sourceTree = "<group>"; };
-		3CA87C40178B066D00B4C712 /* MovieLoaderTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieLoaderTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CA87C41178B066D00B4C712 /* Info-MovieLoaderTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-MovieLoaderTest.plist"; path = "/Users/Caleb/Development/OpenSource/CinderAvfPort/xcode/Info-MovieLoaderTest.plist"; sourceTree = "<absolute>"; };
-		3CA87C42178B069300B4C712 /* MovieLoaderTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MovieLoaderTest.cpp; path = ../src/MovieLoaderTest.cpp; sourceTree = "<group>"; };
-		3CA87C59178B077300B4C712 /* MovieGlTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieGlTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CA87C5A178B077400B4C712 /* Info-MovieGlTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-MovieGlTest.plist"; path = "/Users/Caleb/Development/OpenSource/CinderAvfPort/xcode/Info-MovieGlTest.plist"; sourceTree = "<absolute>"; };
-		3CA87C5B178B07B100B4C712 /* MovieGlTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MovieGlTest.cpp; path = ../src/MovieGlTest.cpp; sourceTree = "<group>"; };
 		41103DFF177CBACE00FDCBA5 /* Avf.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Avf.mm; path = ../src/Avf.mm; sourceTree = "<group>"; };
 		41103E00177CBACE00FDCBA5 /* MacApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MacApp.cpp; path = ../src/MacApp.cpp; sourceTree = "<group>"; };
 		41103E03177CBAD700FDCBA5 /* Avf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Avf.h; path = ../include/Avf.h; sourceTree = "<group>"; };
@@ -100,57 +49,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3CA87C19178B05D900B4C712 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CA87C1A178B05D900B4C712 /* CoreMedia.framework in Frameworks */,
-				3CA87C1B178B05D900B4C712 /* AVFoundation.framework in Frameworks */,
-				3CA87C1C178B05D900B4C712 /* Cocoa.framework in Frameworks */,
-				3CA87C1D178B05D900B4C712 /* OpenGL.framework in Frameworks */,
-				3CA87C1E178B05D900B4C712 /* CoreVideo.framework in Frameworks */,
-				3CA87C1F178B05D900B4C712 /* QTKit.framework in Frameworks */,
-				3CA87C20178B05D900B4C712 /* Accelerate.framework in Frameworks */,
-				3CA87C21178B05D900B4C712 /* AudioToolbox.framework in Frameworks */,
-				3CA87C22178B05D900B4C712 /* AudioUnit.framework in Frameworks */,
-				3CA87C23178B05D900B4C712 /* CoreAudio.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CA87C32178B066D00B4C712 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CA87C33178B066D00B4C712 /* CoreMedia.framework in Frameworks */,
-				3CA87C34178B066D00B4C712 /* AVFoundation.framework in Frameworks */,
-				3CA87C35178B066D00B4C712 /* Cocoa.framework in Frameworks */,
-				3CA87C36178B066D00B4C712 /* OpenGL.framework in Frameworks */,
-				3CA87C37178B066D00B4C712 /* CoreVideo.framework in Frameworks */,
-				3CA87C38178B066D00B4C712 /* QTKit.framework in Frameworks */,
-				3CA87C39178B066D00B4C712 /* Accelerate.framework in Frameworks */,
-				3CA87C3A178B066D00B4C712 /* AudioToolbox.framework in Frameworks */,
-				3CA87C3B178B066D00B4C712 /* AudioUnit.framework in Frameworks */,
-				3CA87C3C178B066D00B4C712 /* CoreAudio.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CA87C4B178B077300B4C712 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CA87C4C178B077300B4C712 /* CoreMedia.framework in Frameworks */,
-				3CA87C4D178B077300B4C712 /* AVFoundation.framework in Frameworks */,
-				3CA87C4E178B077300B4C712 /* Cocoa.framework in Frameworks */,
-				3CA87C4F178B077300B4C712 /* OpenGL.framework in Frameworks */,
-				3CA87C50178B077300B4C712 /* CoreVideo.framework in Frameworks */,
-				3CA87C51178B077300B4C712 /* QTKit.framework in Frameworks */,
-				3CA87C52178B077300B4C712 /* Accelerate.framework in Frameworks */,
-				3CA87C53178B077300B4C712 /* AudioToolbox.framework in Frameworks */,
-				3CA87C54178B077300B4C712 /* AudioUnit.framework in Frameworks */,
-				3CA87C55178B077300B4C712 /* CoreAudio.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D11072E0486CEB800E47090 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,9 +82,6 @@
 				41103DFF177CBACE00FDCBA5 /* Avf.mm */,
 				3C9032901789E71E009BDB67 /* AvfUtils.mm */,
 				41103E00177CBACE00FDCBA5 /* MacApp.cpp */,
-				3CA87C5B178B07B100B4C712 /* MovieGlTest.cpp */,
-				3CA87C42178B069300B4C712 /* MovieLoaderTest.cpp */,
-				3CA87C29178B05FE00B4C712 /* MovieSurfaceTest.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -221,9 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* Cinder-AvfImpl.app */,
-				3CA87C27178B05D900B4C712 /* MovieSurfaceTestApp.app */,
-				3CA87C40178B066D00B4C712 /* MovieLoaderTestApp.app */,
-				3CA87C59178B077300B4C712 /* MovieGlTestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,9 +149,6 @@
 			children = (
 				82AD2A27721F42EC97B73A73 /* CinderApp.icns */,
 				BCB8AF78A6494706BC9938AC /* Info.plist */,
-				3CA87C5A178B077400B4C712 /* Info-MovieGlTest.plist */,
-				3CA87C28178B05D900B4C712 /* Info-MovieSurfaceTest.plist */,
-				3CA87C41178B066D00B4C712 /* Info-MovieLoaderTest.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -276,60 +165,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3CA87C12178B05D900B4C712 /* MovieSurfaceTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3CA87C24178B05D900B4C712 /* Build configuration list for PBXNativeTarget "MovieSurfaceTest" */;
-			buildPhases = (
-				3CA87C13178B05D900B4C712 /* Resources */,
-				3CA87C15178B05D900B4C712 /* Sources */,
-				3CA87C19178B05D900B4C712 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MovieSurfaceTest;
-			productInstallPath = "$(HOME)/Applications";
-			productName = CinderAvfPort;
-			productReference = 3CA87C27178B05D900B4C712 /* MovieSurfaceTestApp.app */;
-			productType = "com.apple.product-type.application";
-		};
-		3CA87C2B178B066D00B4C712 /* MovieLoaderTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3CA87C3D178B066D00B4C712 /* Build configuration list for PBXNativeTarget "MovieLoaderTest" */;
-			buildPhases = (
-				3CA87C2C178B066D00B4C712 /* Resources */,
-				3CA87C2E178B066D00B4C712 /* Sources */,
-				3CA87C32178B066D00B4C712 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MovieLoaderTest;
-			productInstallPath = "$(HOME)/Applications";
-			productName = CinderAvfPort;
-			productReference = 3CA87C40178B066D00B4C712 /* MovieLoaderTestApp.app */;
-			productType = "com.apple.product-type.application";
-		};
-		3CA87C44178B077300B4C712 /* MovieGlTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3CA87C56178B077300B4C712 /* Build configuration list for PBXNativeTarget "MovieGlTest" */;
-			buildPhases = (
-				3CA87C45178B077300B4C712 /* Resources */,
-				3CA87C47178B077300B4C712 /* Sources */,
-				3CA87C4B178B077300B4C712 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MovieGlTest;
-			productInstallPath = "$(HOME)/Applications";
-			productName = CinderAvfPort;
-			productReference = 3CA87C59178B077300B4C712 /* MovieGlTestApp.app */;
-			productType = "com.apple.product-type.application";
-		};
 		8D1107260486CEB800E47090 /* Cinder-AvfImpl */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Cinder-AvfImpl" */;
@@ -371,38 +206,11 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* Cinder-AvfImpl */,
-				3CA87C44178B077300B4C712 /* MovieGlTest */,
-				3CA87C12178B05D900B4C712 /* MovieSurfaceTest */,
-				3CA87C2B178B066D00B4C712 /* MovieLoaderTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3CA87C13178B05D900B4C712 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CA87C14178B05D900B4C712 /* CinderApp.icns in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CA87C2C178B066D00B4C712 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CA87C2D178B066D00B4C712 /* CinderApp.icns in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CA87C45178B077300B4C712 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CA87C46178B077300B4C712 /* CinderApp.icns in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D1107290486CEB800E47090 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -414,36 +222,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3CA87C15178B05D900B4C712 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CA87C16178B05D900B4C712 /* Avf.mm in Sources */,
-				3CA87C18178B05D900B4C712 /* AvfUtils.mm in Sources */,
-				3CA87C2A178B05FE00B4C712 /* MovieSurfaceTest.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CA87C2E178B066D00B4C712 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CA87C2F178B066D00B4C712 /* Avf.mm in Sources */,
-				3CA87C30178B066D00B4C712 /* AvfUtils.mm in Sources */,
-				3CA87C43178B069300B4C712 /* MovieLoaderTest.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CA87C47178B077300B4C712 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CA87C48178B077300B4C712 /* Avf.mm in Sources */,
-				3CA87C49178B077300B4C712 /* AvfUtils.mm in Sources */,
-				3CA87C5C178B07B100B4C712 /* MovieGlTest.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D11072C0486CEB800E47090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -457,150 +235,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3CA87C25178B05D900B4C712 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cinder-AvfImpl_Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INFOPLIST_FILE = "Info-MovieSurfaceTest.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
-				PRODUCT_NAME = MovieSurfaceTestApp;
-				SYMROOT = ./build;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		3CA87C26178B05D900B4C712 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_FAST_MATH = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cinder-AvfImpl_Prefix.pch";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INFOPLIST_FILE = "Info-MovieSurfaceTest.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
-				PRODUCT_NAME = MovieSurfaceTestApp;
-				STRIP_INSTALLED_PRODUCT = YES;
-				SYMROOT = ./build;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		3CA87C3E178B066D00B4C712 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cinder-AvfImpl_Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INFOPLIST_FILE = "Info-MovieSurfaceTest.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
-				PRODUCT_NAME = MovieLoaderTestApp;
-				SYMROOT = ./build;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		3CA87C3F178B066D00B4C712 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_FAST_MATH = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cinder-AvfImpl_Prefix.pch";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INFOPLIST_FILE = "Info-MovieSurfaceTest.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
-				PRODUCT_NAME = MovieLoaderTestApp;
-				STRIP_INSTALLED_PRODUCT = YES;
-				SYMROOT = ./build;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		3CA87C57178B077300B4C712 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cinder-AvfImpl_Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INFOPLIST_FILE = "Info-MovieGlTest.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
-				PRODUCT_NAME = MovieGlTestApp;
-				SYMROOT = ./build;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		3CA87C58178B077300B4C712 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_FAST_MATH = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cinder-AvfImpl_Prefix.pch";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INFOPLIST_FILE = "Info-MovieGlTest.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
-				PRODUCT_NAME = MovieGlTestApp;
-				STRIP_INSTALLED_PRODUCT = YES;
-				SYMROOT = ./build;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -689,33 +323,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3CA87C24178B05D900B4C712 /* Build configuration list for PBXNativeTarget "MovieSurfaceTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3CA87C25178B05D900B4C712 /* Debug */,
-				3CA87C26178B05D900B4C712 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3CA87C3D178B066D00B4C712 /* Build configuration list for PBXNativeTarget "MovieLoaderTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3CA87C3E178B066D00B4C712 /* Debug */,
-				3CA87C3F178B066D00B4C712 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3CA87C56178B077300B4C712 /* Build configuration list for PBXNativeTarget "MovieGlTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3CA87C57178B077300B4C712 /* Debug */,
-				3CA87C58178B077300B4C712 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Cinder-AvfImpl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
